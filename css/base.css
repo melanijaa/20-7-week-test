@@ -1,0 +1,23 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --body: #D4E6FE;
+    --form: #FDFEFF;
+    --form1: #E7E9FE;
+    --form2: #DCE1FF;
+    --form3: #C7CDFD;
+    --form4: #A5B1FD;
+    --main-text: #1E2DB3;
+    --btn: #233BF5;
+    --text: #89DCC5;
+}
