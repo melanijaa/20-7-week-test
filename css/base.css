@@ -19,5 +19,7 @@ body {
     --form4: #A5B1FD;
     --main-text: #1E2DB3;
     --btn: #233BF5;
-    --text: #89DCC5;
+    --btn-border: #233BF3;
+    --text: #fff;
+    --text1: #89DCC5;
 }
