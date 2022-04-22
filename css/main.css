@@ -1,3 +1,28 @@
 body {
     background-color: var(--body);
 }
+
+.main-title {
+    color: var(--main-text);
+}
+
+.container {
+    background-color: var(--form);
+}
+
+
+.section1 {
+    background-color: var(--form1);
+}
+
+.section2 {
+    background-color: var(--form2);
+}
+
+.section3 {
+    background-color: var(--form3);
+}
+
+.section4 {
+    background-color: var(--form4);
+}
