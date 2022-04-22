@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7 WEEK TEST</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <main class="container">
+        <h1>Get in touch</h1>
+        <form>
+            <div class="form-row">
+                <label for="first-name" class="label"></label>
+                <input id="first-name" type="text" class="input" placeholder="First name" value="" required>
+                <label for="last-name" class="label"></label>
+                <input id="last-name" type="text" class="input" placeholder="Last name" value="" required>
+            </div>
+            <div class="form-row">
+                <label for="email" class="label"></label>
+                <input id="email" type="email" class="input" placeholder="Email" value="" required>
+                <label for="phone" class="label"></label>
+                <input id="phone" type="phone" class="input" placeholder="Phone" value="" required>
+            </div>
+            <div class="form-row">
+                <label for="address" class="label"></label>
+                <input id="address" type="address" class="input" placeholder="Address" value="" required>
+            </div>
+            <div class="form-row">
+                <label for="your-text" class="label"></label>
+                <input id="your-text" type="your-text" class="input" placeholder="Type your message here" value="" required>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="btn">Submit</button> 
+        </form>
+        <p>Thanks for submitting!</p>
+    </main>
 </body>
 </html>
